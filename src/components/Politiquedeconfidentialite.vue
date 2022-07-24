@@ -1,0 +1,148 @@
+<template>
+    <div style="
+        background: url(https://bootstrapious.com/i/snippets/sn-static-header/background.jpg);
+      " class="jumbotron bg-cover text-white">
+        <div class="container py-5 text-center">
+            <h1 class="display-4 font-weight-bold">Politique de confidentialités</h1>
+            <p class="font-italic mb-0"></p>
+            <!--p class="font-italic">
+            <a href="https://bootstrapious.com" class="text-white">
+                <u>Bootstrapious</u>
+            </a>
+        </p-->
+            <!--a href="#" role="button" class="btn btn-primary px-5">See All Features</a-->
+        </div>
+    </div>
+    <div class="container">
+         
+        <p>
+        <h5>A. Introductions</h5>
+        </p>
+        <p> 1. La confidentialité des visiteurs de notre site web est très importante à nos yeux, et nous nous engageons
+            à la protéger. Cette politique détaille ce que nous faisons de vos informations personnelles.<br>
+            2. Consentir à notre utilisation de cookies en accord avec cette politique lors de votre première visite de
+            notre site web nous permet d’utiliser des cookies à chaque fois que vous consultez notre site.</p>
+
+
+        <p>
+        <h5>B. Source</h5>
+        </p>
+        <p>Ce document a été créé grâce à un modèle de SEQ Legal (seqlegal.com)
+            et a été modifié par Gescole (gescole.com)</p>
+
+
+        <p>
+        <h5>C. Collecte d'informations personnelles</h5>
+        </p>
+        <p>Les types d’informations personnelles suivants peuvent collectés, stockés et utilisés :
+            1. Des informations à propos de votre ordinateur, y compris votre adresse IP, votre localisation
+            géographique, le type et la version de votre navigateur, et votre système d’exploitation ;<br>
+            2. Des informations sur vos visites et votre utilisation de ce site web y compris la source référente, la
+            durée de la visite, les pages vues, et les chemins de navigation de sites web ;<br>
+            3. Des informations comme votre adresse e-mail, que vous nous fournissez lors de votre inscription au site
+            ;<br>
+            4. Des informations que vous saisissez quand vous créez un profil sur notre site web comme votre nom, votre
+            photo de profil, votre genre, votre date de naissance, votre situation amoureuse, vos intérêts et vos
+            loisirs, votre parcours scolaire et votre parcours professionnel ;<br>
+            5. Des informations comme votre nom et votre adresse e-mail, que vous saisissez pour souscrire à nos e-mails
+            et/ou newsletters ;<br>
+            6. Des informations que vous saisissez quand vous utilisez les services de notre site web ;<br>
+            7. Des informations générées lors de l’utilisation de notre site, y compris quand, à quelle fréquence et
+            sous quelles circonstances vous l’utilisez ;<br>
+            8. Des informations relatives aux achats que vous faites, aux services que vous utilisez ou aux transactions
+            que vous effectuez sur notre site, qui incluent votre nom, adresse, numéro de téléphone, adresse e-mail et
+            informations bancaires ;<br>
+            9. Des informations que vous publiez sur notre site web dans l’intention de les publier sur internet, et qui
+            incluent votre identifiant, vos photos de profil et le contenu de vos publications ;<br>
+            10. Des informations contenues dans toutes les communications que vous nous envoyez par e-mail ou sur notre
+            site web, y compris leurs contenus et leurs métadonnées ;<br>
+            11. Toute autre information personnelle que vous nous communiquez.
+            Avant de nous divulguer des informations personnelles concernant une autre personne, vous devez obtenir le
+            consentement de ladite personne en ce qui concerne la divulgation et le traitement de ces informations
+            personnelles selon les termes de cette politique</p>
+
+
+        <p>
+        <h5> D. Utilisations de vos informations personnelles</h5>
+        </p>
+        <p>Les informations personnelles qui nous sont fournies par le biais de notre site web seront utilisées dans les
+            objectifs décrits dans cette politique ou dans les pages du site pertinentes. Nous pouvons utiliser vos
+            informations personnelles pour:<br> 1. Administrer notre site web et notre entreprise ;<br>
+            2. Personnaliser notre site web pour vous ;<br>
+            3. Permettre votre utilisation des services proposés sur notre site web ;<br>
+            4. Vous envoyer les marchandises achetées sur notre site ;<br>
+            5. Vous fournir les services achetés sur notre site ;<br>
+            6. Vous envoyer des relevés, des factures et des rappels de paiement, et collecter vos paiements ;<br>
+            7. Vous envoyer des communications commerciales non relatives au marketing ;<br>
+            8. Vous envoyer des notifications par e-mail que vous avez expressément demandées ;<br>
+            9. Vous envoyer notre newsletter par mail, si vous l’avez demandé (vous pouvez nous informer à tout moment
+            de votre volonté de ne plus recevoir notre newsletter) ;<br>
+            10. Vous envoyer des communications marketing relatives à notre entreprise ou à des entreprises tierces
+            sélectionnées avec soin qui selon nous pourraient vous intéresser, sous forme de publication, ou si vous
+            avez expressément donné votre accord, par e-mail ou technologie similaire (vous pouvez nous informer à tout
+            moment de votre volonté de ne plus recevoir de communications marketing) ;<br>
+            11. Fournir des informations statistiques à propos de nos utilisateurs à des tierces parties (sans que ces
+            tierces parties puissent identifier d’utilisateur individuel avec ces informations) ;<br>
+            12. Traiter les demandes et les réclamations relatives à votre site web effectuées par vous ou vous
+            concernant ;<br>
+            13. Maintenir la sécurité de notre site web et empêcher la fraude ;<br>
+            14. Vérifier le respect des conditions générales qui régissent l’utilisation de notre site web (y compris
+            surveiller les messages privés envoyés par le biais du service de messagerie privé de notre site web) ;<br>
+            15. D’autres utilisations.<br>
+            Si vous soumettez des informations personnelles sur notre site web dans le but de les publier, nous les
+            publierons et pourrons utiliser ces informations conformément aux autorisations que vous nous accordez.
+            Vos paramètres de confidentialité peuvent être utilisés pour limiter la publication de vos informations sur
+            notre site web et peuvent être ajustés dans vos paramètres de confidentialité sur le site web.
+            Sans votre consentement explicite, nous ne fournirons pas vos informations personnelles à des tierces
+            parties pour leur marketing direct, ni celui d’autres tierces parties.
+        </p>
+
+
+        <p>
+        <h5> E. Divulgations de vos informations personnelles</h5>
+        </p>
+        <p>Nous pouvons divulguer vos informations personnelles à n’importe lequel de nos employés, dirigeants,
+            assureurs, conseillers professionnels, agents, fournisseurs, ou sous-traitants dans la mesure où cela est
+            raisonnablement nécessaire aux fins énoncées dans cette politique.</p>
+    </div>
+
+
+
+</template>
+<style scoped>
+
+
+
+p{
+    text-align: justify;
+        font-family: Open Sans, Arial, sans-serif;
+        font-size: 15px;
+        letter-spacing: normal;
+        line-height: 24px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        text-rendering: auto;
+        word-spacing:
+}
+h2{
+
+}
+h5 {
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 22.5px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    text-rendering: auto;
+    word-spacing: 0px
+}
+</style>
+<script>
+
+</script>
