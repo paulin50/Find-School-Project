@@ -66,7 +66,7 @@
     };
 </script>
 
-<style>
+<style scoped>
 /* Testimonial slider css */
 .user-photo {
     width: 120px;

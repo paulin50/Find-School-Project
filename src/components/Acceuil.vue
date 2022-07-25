@@ -1,11 +1,13 @@
 <template>
-    <HomeSliderSection/>
-    <HomeSearchSection/>
-    <HomePubSection/>
-    <HomeFeaturedSection/>
-    <HomeTestimonialSection/>
-    <Demande/>
-    <HomeCountSection/>
+    <HomeSliderSection />
+    <HomeSearchSection />
+    <HomePubSection />
+    <HomeFeaturedSection />
+    <HomeTestimonialSection />
+    <Demande />
+    <HomeCountSection />
+    <Calltoaction/>
+
 </template>
 
 <script>
@@ -16,20 +18,21 @@ import HomeFeaturedSection from "./HomeFeaturedSection.vue";
 import HomeTestimonialSection from "./HomeTestimonialSection.vue";
 import HomeCountSection from "./HomeCountSection.vue";
 import Demande from "./Demande.vue";
+import Calltoaction from "./Calltoaction.vue";
 export default {
-    components:{
-    HomeSliderSection,
-    HomeSearchSection,
-    HomePubSection,
-    HomeFeaturedSection,
-    HomeTestimonialSection,
-    HomeCountSection,
-    Demande
-},
+    components: {
+        HomeSliderSection,
+        HomeSearchSection,
+        HomePubSection,
+        HomeFeaturedSection,
+        HomeTestimonialSection,
+        HomeCountSection,
+        Calltoaction,
+        Demande
+    },
     name: 'Accueil'
 };
 </script>
 
 <style scoped>
-
 </style>

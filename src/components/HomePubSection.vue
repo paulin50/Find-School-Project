@@ -87,7 +87,7 @@
     };
 </script>
 
-<style>
+<style scoped>
 /* Pub Section*/
 
 /* Hero Carousel */

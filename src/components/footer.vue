@@ -18,12 +18,12 @@
 
         </div>
     </div>  
-    <img   id ="image" src="https://www.imagidee-serveur6.fr/ecole-superieure-formateurs/medias/bandeaux/IMAGE-2.jpg" >
+    <img   id ="image" src="../assets/bg-call.jpg" >
 
 
 </div>
 
-<footer class="" id="tempaltemo_footer" style="background-color:#006663;color:#FFF000">
+<footer class="foot" id="tempaltemo_footer" style="background-color:#006663;color:#FFF000">
     <div class="container">
         <div class="row " style="color:red">
 
@@ -129,6 +129,15 @@
 </template>
 
 <style scoped>
+
+a{
+    color: white !important;
+    text-decoration: none;
+}
+.foot{
+    padding-top:80px;
+}
+
 #centre{
     left: 0px;
     right: 0px;

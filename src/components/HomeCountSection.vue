@@ -157,11 +157,11 @@ jQuery(function ($) {
 
 </script>
 
-<style>
+<style scoped>
 /* Count Section css */
 
 .count_sec {
-    padding: 8%;
+    padding: 0%;
 }
 
 .counter {

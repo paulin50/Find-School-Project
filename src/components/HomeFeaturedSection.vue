@@ -62,11 +62,11 @@
 </template>
 
 
-<script>
+<script >
     export default{
         name:"HomeFeaturedSection"
     };
 </script>
 
-<style>
+<style scoped>
 </style>

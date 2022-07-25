@@ -117,7 +117,7 @@ p {
         word-spacing:
 }
 
-h2 {}
+
 h5 {
     font-family: Open Sans, Arial, sans-serif;
         font-size: 15px;

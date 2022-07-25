@@ -3,19 +3,14 @@
 <!-- Search Section -->
 <section>
 <div class="container">
-
     <div class="row height d-flex justify-content-center align-items-center">
-
       <div class="col-md-8">
-
         <div class="search">
           <i class="fa fa-search"></i>
           <input type="text" class="form-control" placeholder="Recherche par mots clés">
           <button class="btn btn-primary">Rechercher</button>
         </div>
-        
       </div>
-      
     </div>
 </div>
 </section>
@@ -29,7 +24,7 @@
     };
 </script>
 
-<style>
+<style scoped>
 /* search css */
 
 .height{

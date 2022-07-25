@@ -160,7 +160,9 @@
 
 <!-- credit: https://bootsnipp.com/snippets/WaeDX -->
 </template>
-<style>
+
+
+<style scoped>
 section{
     padding: 100px 0;
 }
