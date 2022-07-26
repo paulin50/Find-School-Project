@@ -45,8 +45,6 @@
                             <a class="dropdown-item">
                                 <router-link to="/about" class="nav-link px-4" style="color: black" >A'propos</router-link>
                             </a>
-                            
-
                             <!--div class="dropdown-divider"></div>
                             <a href="#" class="dropdown-item">Trash</a-->
                         </div>
@@ -74,3 +72,24 @@ export default {
     name: 'NavBar'
 };
 </script>
+
+<style>
+#app > div > nav > div > div > ul > li:nth-child(2) > div > a > a {
+     color: black !important;
+}
+#app > div > nav > div > div > ul > li:nth-child(3) > div > a > a {
+     color: black !important;
+}
+
+
+
+#app > div > nav > div > div > ul > li:nth-child(2) > div{
+background-color: #ffffffa8;
+
+}
+
+#app > div > nav > div > div > ul > li:nth-child(3) > div{
+background-color: #ffffffa8;
+
+}
+</style>

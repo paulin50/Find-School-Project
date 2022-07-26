@@ -57,7 +57,11 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+
+h3{
+    color: white;
+}
 #home-banner {
     padding: 0px !important;
 }
