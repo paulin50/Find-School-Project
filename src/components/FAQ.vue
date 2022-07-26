@@ -1,11 +1,8 @@
 <template>
-  <body>
-    <div
-      style="
+  <section>
+    <div style="
         background: url(https://bootstrapious.com/i/snippets/sn-static-header/background.jpg);
-      "
-      class="jumbotron bg-cover text-white"
-    >
+      " class="jumbotron bg-cover text-white">
       <div class="container py-5 text-center">
         <h1 class="display-4 font-weight-bold">Foire Aux Questions</h1>
         <p class="font-italic mb-0"></p>
@@ -73,29 +70,34 @@
         </div>
       </details>
     </main>
-  </body>
+  </section>
 </template>
+
+
+
 <style>
-body {
-  font-family: "Montserrat", sans-serif;
+
+section {
   font-size: 16px;
   font-weight: 400;
-  background: #0b2647;
-  color: white;
+  color: black;
   line-height: 1.5;
   letter-spacing: 0.5px;
   text-align: center;
-  height: 100vh;
+  
 }
+
 h1 {
   font-size: clamp(20px, 4vw, 30px);
   line-height: 1.2;
   margin-bottom: 40px;
 }
+
 main {
-  max-width: 520px;
-  margin: 0 auto;
+  max-width: 70%;
+  margin: 50px auto;
 }
+
 summary {
   font-size: 1.25rem;
   font-weight: 600;
@@ -109,30 +111,37 @@ summary {
   cursor: pointer;
   position: relative;
 }
-details[open] summary ~ * {
+
+details[open] summary~* {
   animation: sweep 0.5s ease-in-out;
 }
+
 @keyframes sweep {
   0% {
     opacity: 0;
     margin-top: -10px;
   }
+
   100% {
     opacity: 1;
     margin-top: 0px;
   }
 }
-details > summary::after {
+
+details>summary::after {
   position: absolute;
   content: "+";
   right: 20px;
 }
-details[open] > summary::after {
+
+details[open]>summary::after {
   position: absolute;
   content: "-";
   right: 20px;
 }
-details > summary::-webkit-details-marker {
+
+details>summary::-webkit-details-marker {
   display: none;
 }
+
 </style>
