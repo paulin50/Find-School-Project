@@ -71,6 +71,7 @@
       </details>
     </main>
   </section>
+  
 </template>
 
 
