@@ -16,13 +16,13 @@
           <div>Sur Findschola.com, postez votre demande gratuitement et recevez les informations de nombreux
             établissements indépendants.</div><br>
         </div>
-      
+
       </div>
 
       <div class="col-8">
         <!-- Exaple 1 -->
         <div class="card example-1 scrollbar-ripe-malinka">
-          <div class="card-body">
+          <div class="card-body" id="element">
             <div class="projcard projcard-blue">
               <div class="projcard-innerbox">
                 <!--img class="projcard-img" src="https://picsum.photos/800/600?image=1041" /-->
@@ -110,6 +110,12 @@
   </div>
 </template>
 <style scoped>
+#element {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+
 .scrollbar-deep-purple::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
   background-color: #F5F5F5;
@@ -221,7 +227,7 @@
 .example-1 {
   position: relative;
   overflow-y: scroll;
-  height: 200px;
+  height: 287px;
 }
 
 /* Demo Code: */

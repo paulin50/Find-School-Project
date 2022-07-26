@@ -1,35 +1,26 @@
 <template>
-  <!-- <div id="centre">
-    <div class="first">
-        <div class="second">
-            <div class="text">
-                <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Quia cum quasi earum provident sint ipsam, <br> nulla molestias necessitatibus porro unde modi repellat sequi veniam ipsum possimus, 
-                voluptate aliquid deserunt repellendus. 
-                </p>        
-        </div>
-        <button type="button" class="btn btn-primary">
-            <router-link to="/inscription" class="">Inscription</router-link>
-        </button>
-
-        </div>
-    </div>  
-    <img   id ="image" src="https://www.imagidee-serveur6.fr/ecole-superieure-formateurs/medias/bandeaux/IMAGE-2.jpg" >
-
-
-</div> -->
-<div id="banner">
-            <a href="/">
-                <div id="target"></div>
-                <img id="product" src="http://base.webdesignforyou.net/banner/product.png">
-                <div id="badge">SAVE NOW!</div>
-                <div id="sale">
-                    <span id="sale-text">30% off All Spa Products</span><br/>
-                    <span id="button">See Special</span>
+    <!-- Start Footer -->
+    <div id="centre">
+        <div class="first">
+            <div class="second">
+                <div class="text">
+                    <h1>Inscrivez-vous sur FindSchola</h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Quia cum quasi earum provident sint ipsam, <br> nulla molestias necessitatibus porro unde modi
+                        repellat sequi veniam ipsum possimus,
+                        voluptate aliquid deserunt repellendus.
+                    </p>
                 </div>
-            </a>
+                <button type="button" class="btn"
+                    style="width:20%;height:13%;font-size:100%;color:white; background-color: #ff5e00;">
+                    <router-link to="/inscription" class="nav-link px-4 ">Inscription</router-link>
+                </button>
+
+            </div>
         </div>
+        <img id="image" src="../assets/bg-call.jpg">
+    </div>
 </template>
 
 <script>
@@ -39,142 +30,47 @@ export default {
 </script>
 
 <style>
-   #banner {
-    height: 300px;
-    width: 300px;
-    background: #666699;
-    overflow: hidden;
-    border: solid 1px rgba(0, 0, 0, 0.2);
+h1{
+    color: white;
 }
-#banner a {
-    height: 100%;
-    width: 100%;
-    display: block;
-    position: relative;
-    overflow: hidden;
-    animation: 1s fadein ease-in-out;
-    animation-fill-mode: forwards;
+a {
+    color: white !important;
+    text-decoration: none;
 }
-#target {
-    background: url(http://base.webdesignforyou.net/banner/target.png) center center no-repeat;
-    background-size: 100% auto;
-    margin: 0 auto;
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    margin-top: -100px;
-    margin-left: -100px;
-    animation: 20s roty infinite linear;
+
+.foot {
+    padding-top: 80px;
 }
-#product {
-    margin: 30px auto 0 auto;
-    display: block;
-    z-index: 10;
-    width: 150px;
-    position: relative;
-    opacity: 0;
-    animation: 1s growin ease-in-out 1s;
-    animation-fill-mode: forwards;
-}
-#button {
-    color: #fff;
-    padding: 8px 15px 8px 15px;
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 18px;
-    background: #3ba7d1;
-    display: inline-block;
-    margin: 10px 0 0 0;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-    opacity: 0;
-    animation: 1s fadein ease-in-out 2s;
-    animation-fill-mode: forwards;
-}
-#sale {
-    text-align: center;
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    z-index: 10;
-}
-#sale-text {
-    color: #fff;
-    font-family: 'Satisfy';
-    font-size: 26px;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    opacity: 0;
-    animation: 1s fadein ease-in-out 1.5s;
-    animation-fill-mode: forwards;
-}
-#badge {
-    box-sizing: border-box;
-    color: #fff;
-    padding: 10px 0 0 0;
-    font-weight: 800;
-    font-family: 'Roboto Slab';
-    font-size: 16px;
-    text-align: center;
-    width: 70px;
-    height: 70px;
-    background: #ff9900;
-    border: solid 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    display: inline-block;
-    border-radius: 50%;
-    transform: rotate(345deg);
-    animation: 1s fadein ease-in-out;
-    -webkit-transition-delay: 6s;
-    transition-delay: 6s;
-    position: absolute;
-    opacity: 0;
-    transform: rotate(0deg);
-    top: 0px;
+
+#centre {
+    left: 0px;
     right: 0px;
-    z-index: 10;
-    animation: 1s rollin ease-in-out 2.5s;
-    animation-fill-mode: forwards;
+    top: 90px;
+    width: 100%;
+    position: relative;
+    display: block;
 }
-@keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+
+.text {
+    color: white;
 }
-@keyframes roty {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+
+#image {
+    width: 100%;
 }
-@keyframes rollin {
-    0% {
-        opacity: 0;
-        transform: rotate(0deg);
-        top: 0px;
-        right: 0px;
-    }
-    100% {
-        opacity: 1;
-        transform: rotate(345deg);
-        top: 40px;
-        right: 40px;
-    }
+
+.second {
+    display: block;
+    align-content: center;
+    text-align: center;
+    margin-top: 12%;
 }
-@keyframes growin {
-    0% {
-        opacity: 0;
-        transform: scale(0.5);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
+
+.first {
+    position: absolute;
+    width: 100%;
+    background-color: #000206;
+    opacity: 80%;
+    height: 100%;
 }
 </style>
