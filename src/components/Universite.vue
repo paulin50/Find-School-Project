@@ -179,43 +179,46 @@
         </div>
         <div class="row" >        
             <div class="col-12 col-md-4 mb-4">
-                <div class="card" style="border-radius: 17% 17%;">
+                <div class="card" style="border-radius: 5%;">
                     <div class="container" style="text-align:center; justify:content;"> <br/>
-                        <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quo, odio delectus 
-                            obcaecati minima corporis dolorem harum. </q> 
-                        <br/> <br/> 
-                            <img src="../assets/img/testimony1.jpg" alt="Avatar" style="width:100px;height:100px; border-radius:40% 40%;  " > 
+                    <img src="../assets/img/testimony1.jpg" alt="Avatar" style="width:100px;height:100px; border-radius:50%;  " > 
                             <!-- <p><h4><b>John Doe</b></h4></p> -->
                             <h4><p><b>John Doe</b></p></h4>
                             <p>Architect & Engineer</p>
+                        <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quo, odio delectus 
+                            obcaecati minima corporis dolorem harum. </q> 
+                        <br/> <br/> 
+                            
                     </div> 
                 </div>
             </div>
 
             <div class="col-12 col-md-4 mb-4">
-                <div class="card" style="border-radius: 17% 17%;">
+                <div class="card" style="border-radius: 5%;">
                     <div class="container" style="text-align:center; justify:content;"> <br/>
-                        <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quo, odio delectus 
-                            obcaecati minima corporis dolorem harum. </q> 
-                        <br/> <br/> 
-                            <img src="../assets/img/tic.jpg" alt="Avatar" style="width:100px;height:100px; border-radius:40% 40%;  " > 
+                    <img src="../assets/img/tic.jpg" alt="Avatar" style="width:100px;height:100px; border-radius:50%;  " > 
                             <!-- <p><h4><b>John Doe</b></h4></p>  -->
                             <h4><p><b>John Doe</b></p></h4>
                             <p>Architect & Engineer</p>
+                        <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quo, odio delectus 
+                            obcaecati minima corporis dolorem harum. </q> 
+                        <br/> <br/> 
+                            
                     </div> 
                 </div>
             </div>
 
             <div class="col-12 col-md-4 mb-4">
-                <div class="card" style="border-radius: 17% 17%;">
+                <div class="card" style="border-radius: 5%;">
                     <div class="container" style="text-align:center; justify:content;"> <br/>
-                        <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quo, odio delectus 
-                            obcaecati minima corporis dolorem harum. </q> 
-                        <br/> <br/> 
-                            <img src="../assets/img/tic.jpg" alt="Avatar" style="width:100px;height:100px; border-radius:40% 40%;  " > 
+                    <img src="../assets/img/tic.jpg" alt="Avatar" style="width:100px;height:100px; border-radius:50%;  " > 
                             <h4><p><b>John Doe</b></p></h4>
                             <!-- <p><h4><b>John Doe</b></h4></p>  -->
                             <p>Architect & Engineer</p>
+                        <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quo, odio delectus 
+                            obcaecati minima corporis dolorem harum. </q> 
+                        <br/> <br/> 
+                            
                     </div> 
                 </div>
             </div>
@@ -310,13 +313,13 @@
 /* Section témoignages */
     .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.103);
   transition: 0.3s;
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.068);
 }
 
 /* Add some padding inside the card container */
