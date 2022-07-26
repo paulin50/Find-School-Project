@@ -1,76 +1,87 @@
 <template>
   <div class="about">
-    <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark" id="hero">
-    <div class="col-md-6 px-0">
-      <h1 class="display-4 ">Contact</h1>
-    </div>
-  </div>
+      <div style="
+        background: url(https://bootstrapious.com/i/snippets/sn-static-header/background.jpg);
+      " class="jumbotron bg-cover text-white">
+      <div class="container py-5 text-center">
+        <h1 class="display-4 font-weight-bold">Contact</h1>
+        <p class="font-italic mb-0"></p>
+        <!--p class="font-italic">
+            <a href="https://bootstrapious.com" class="text-white">
+                <u>Bootstrapious</u>
+            </a>
+        </p-->
+        <!--a href="#" role="button" class="btn btn-primary px-5">See All Features</a-->
+     </div>
     
-      <div class="container px-4 py-5" id="hanging-icons">
-    <h2 class="pb-2 border-bottom">Informations</h2>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-      <div class="col d-flex align-items-start">
-        <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+    </div>
+
+    <div class="container px-4 py-5" id="hanging-icons">
+      <h2 class="pb-2 border-bottom">Informations</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#toggles2" />
+            </svg>
+          </div>
+          <div>
+            <h2>Localisation</h2>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+              probably just keep going until we run out of words.</p>
+
+          </div>
         </div>
-        <div>
-          <h2>Localisation</h2>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#cpu-fill" />
+            </svg>
+          </div>
+          <div>
+            <h2>contact</h2>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+              probably just keep going until we run out of words.</p>
+
+          </div>
         </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"/></svg>
-        </div>
-        <div>
-          <h2>contact</h2>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"/></svg>
-        </div>
-        <div>
-          <h2>E-mail</h2>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#tools" />
+            </svg>
+          </div>
+          <div>
+            <h2>E-mail</h2>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+              probably just keep going until we run out of words.</p>
+
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
- <div class="formcont">
-    <form>
-      <label>Nom</label>
-      <input type="text" v-model="name" name="name" placeholder="Votre nom" />
-      <label>Email</label>
-      <input
-        type="email"
-        v-model="email"
-        name="email"
-        placeholder="Your Email"
-      />
-      <label>Sujet</label>
-      <input type="text" v-model="sujet" name="sujet" placeholder="Sujet" />
-      <label>Message</label>
-      <textarea
-        name="message"
-        v-model="message"
-        cols="30"
-        rows="5"
-        placeholder="Message"
-      >
+    <div class="formcont">
+      <form>
+        <label>Nom</label>
+        <input type="text" v-model="name" name="name" placeholder="Votre nom" />
+        <label>Email</label>
+        <input type="email" v-model="email" name="email" placeholder="Your Email" />
+        <label>Sujet</label>
+        <input type="text" v-model="sujet" name="sujet" placeholder="Sujet" />
+        <label>Message</label>
+        <textarea name="message" v-model="message" cols="30" rows="5" placeholder="Message">
       </textarea>
 
-      <input type="submit" value="Envoyer"/>
-    </form>
-  </div>
+        <input type="submit" value="Envoyer" />
+      </form>
+    </div>
 
 
-  <!-- <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+    <!-- <div class="container col-xl-10 col-xxl-8 px-4 py-5">
     <div class="row align-items-center g-lg-5 py-5">
       <div class="col-lg-7 text-center text-lg-start">
         <h1 class=" lh-1 mb-3">Prendre contact avec nous</h1>
@@ -101,14 +112,20 @@
       </div>
     </div>
   </div> -->
-   <div class="p-5 mb-4 bg-light rounded-3">
+    <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">La société It Innovation</h1>
-        <p>La société It Innovation a été fondée en 2018. Elle est spécialisée dans le développement et la commercialisation des solutions informatiques innovantes. Il s’agit principalement des solution Web, Mobile, Desktop API et autres dans plusieurs secteurs d’activités (Transport, Gestion, santé, Hôtels, Agriculture, Mécanique, Professions libérales, écoles etc…) </p>
-        <p>La société It Innovation a été fondée en 2018. Elle est spécialisée dans le développement et la commercialisation des solutions informatiques innovantes. Il s’agit principalement des solution Web, Mobile, Desktop API et autres dans plusieurs secteurs d’activités (Transport, Gestion, santé, Hôtels, Agriculture, Mécanique, Professions libérales, écoles etc…) </p>
+        <p>La société It Innovation a été fondée en 2018. Elle est spécialisée dans le développement et la
+          commercialisation des solutions informatiques innovantes. Il s’agit principalement des solution Web, Mobile,
+          Desktop API et autres dans plusieurs secteurs d’activités (Transport, Gestion, santé, Hôtels, Agriculture,
+          Mécanique, Professions libérales, écoles etc…) </p>
+        <p>La société It Innovation a été fondée en 2018. Elle est spécialisée dans le développement et la
+          commercialisation des solutions informatiques innovantes. Il s’agit principalement des solution Web, Mobile,
+          Desktop API et autres dans plusieurs secteurs d’activités (Transport, Gestion, santé, Hôtels, Agriculture,
+          Mécanique, Professions libérales, écoles etc…) </p>
 
       </div>
-      </div>
+    </div>
   </div>
 </template>
 
@@ -153,13 +170,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-#app > div > div > div > div > div.col-10.col-sm-8.col-lg-6 > img{
-      max-width: 86%;
+#app>div>div>div>div>div.col-10.col-sm-8.col-lg-6>img {
+  max-width: 86%;
 }
-#hero{
-  padding: 100px !important; 
+
+#hero {
+  padding: 100px !important;
   align-content: center !important;
 }
+
 .bd-placeholder-img {
   text-anchor: middle;
   -webkit-user-select: none;
@@ -168,8 +187,7 @@ export default {
 }
 
 @media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-  }
+  .bd-placeholder-img-lg {}
 }
 
 .b-example-divider {
@@ -208,8 +226,9 @@ export default {
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
-#texte1{
-  text-align : left;
+
+#texte1 {
+  text-align: left;
 }
 
 @media (min-width: 992px) {
@@ -252,8 +271,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
-.formcont{
-   display: block;
+
+.formcont {
+  display: block;
   margin: auto;
   text-align: center;
   border-radius: 5px;

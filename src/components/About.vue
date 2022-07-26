@@ -1,10 +1,19 @@
 <template>
-  <div class="hello">
-    <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark" id="hero">
-    <div class="col-md-6 px-0">
-      <h1 class="display-4 ">A Propos</h1>
+   <div style="
+        background: url(https://bootstrapious.com/i/snippets/sn-static-header/background.jpg);
+      " class="jumbotron bg-cover text-white">
+      <div class="container py-5 text-center">
+        <h1 class="display-4 font-weight-bold">A Propos</h1>
+        <p class="font-italic mb-0"></p>
+        <!--p class="font-italic">
+            <a href="https://bootstrapious.com" class="text-white">
+                <u>Bootstrapious</u>
+            </a>
+        </p-->
+        <!--a href="#" role="button" class="btn btn-primary px-5">See All Features</a-->
+     </div>
     </div>
-  </div>
+    <Section>
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
@@ -80,9 +89,9 @@
     </div>
       </div>
     
+</Section>
 
-
-  </div>
+  
 </template>
 
 <script>
@@ -110,11 +119,6 @@ export default {
   user-select: none;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
- 
-  }
-}
 
 .b-example-divider {
   height: 3rem;
@@ -133,6 +137,10 @@ export default {
 .bi {
   vertical-align: -.125em;
   fill: currentColor;
+}
+
+#app > div > section > div:nth-child(2) > div.p-5.mb-4.bg-light.rounded-3 > div > h1{
+  color: #00394f;
 }
 
 .nav-scroller {
