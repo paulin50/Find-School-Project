@@ -10,20 +10,21 @@
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <i class="fas fa-map-marker-alt fa-fw"></i>
-                            <a class="text-decoration-none" href="#" tyle="color:#FFF000">Totsi(Lomé-TOGO)</a>
+                            <a id="fa-ok" class="text-decoration-none" href="#">: Totsi(Lomé-TOGO)</a>
                         </li>
+                        
                         <li>
                             <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="#" tyle="color:#FFF000">000-000-0000</a>
+                            <a id="fa-ok" class="text-decoration-none" href="#">: 000-000-0000</a>
                         </li>
                         <li>
                             <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="#">info@Findschola.com</a><br>
+                            <a id="fa-ok" class="text-decoration-none" href="#">: info@Findschola.com</a><br>
 
                         </li>
                         <li>
                             <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="#">contact@Findschola.com</a>
+                            <a id="fa-ok" class="text-decoration-none" href="#">: contact@Findschola.com</a>
 
                         </li>
                     </ul>
@@ -56,21 +57,21 @@
                 <div class="col-md-3 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Liens utiles</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none">
+                        <!-- <li><a class="text-decoration-none">
                                 <router-link to="/commentcamarche">Comment ca marche</router-link>
-                            </a></li>
+                            </a></li> -->
                         <li><a class="text-decoration-none">
                                 <router-link to="/faq">Foire Aux Questions</router-link>
                             </a></li>
                         <li><a class="text-decoration-none">
                                 <router-link to="/temoignage">Temoignage</router-link>
                             </a></li>
-                        <li><a class="text-decoration-none">
+                        <!-- <li><a class="text-decoration-none">
                                 <router-link to="/about">A'propos</router-link>
-                            </a></li>
-                        <li><a class="text-decoration-none">
+                            </a></li> -->
+                        <!-- <li><a class="text-decoration-none">
                                 <router-link to="/contact">Contact</router-link>
-                            </a></li>
+                            </a></li> -->
                         <li><a class="text-decoration-none">
                                 <router-link to="/blog">Blog</router-link>
                             </a></li>
@@ -149,8 +150,17 @@
 </template>
 
 <style scoped>
+
+.fa {
+    font-size: 17px;
+}
+
+#fa-ok{
+    padding-left: 10px;
+}
+
 a {
-    color: white !important;
+    color: white ;
     text-decoration: none;
 }
 

@@ -81,7 +81,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+
 #app > div > nav > div > div > ul > li:nth-child(2) > div > a > a {
      color: black !important;
 }
