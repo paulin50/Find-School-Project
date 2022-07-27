@@ -2,24 +2,45 @@
   <div class="projcard-container">
 
     <div class="row">
-      <div class="col-4">
+      <div class="col-5">
         <div>
-          <h4>Trouvez un etablissement</h4>
-          <div>Sur Findschola.com, postez votre demande gratuitement et recevez les informations de nombreux
-            établissements indépendants.</div><br>
-          <div class="d-grid gap-0">
-            <!-- <button type="button" class="btn btn-success btn-lg btn-block">Success</button> -->
+            <br>
+            <div class="projcard-title">Répondez aux demandes des parents et proposez leur vos formations !</div>
+            <!-- <div class="projcard-subtitle">Mr AGOU Koffi Messanvi</div> -->
+            <div class="projcard-bar"></div>
+            <br>
+
+            <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+
+              <div class="col-6" style="padding: 0px;">
+                <button type="button" class="btn btn-success btn-xs btn-block">Répondez aux demandes</button>
+              </div>
+            <br>
+
           </div>
-        </div><br><br>
-        <div>
-          <h4>Trouvez un etablissement</h4>
-          <div>Sur Findschola.com, postez votre demande gratuitement et recevez les informations de nombreux
-            établissements indépendants.</div><br>
-        </div>
+
+          <div>
+
+            <div class="projcard-title">Vous recherchez une école pour vos enfants ?</div>
+            <!-- <div class="projcard-subtitle">Mr KARBOU Aristide</div> -->
+            <div class="projcard-bar"></div>
+            <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+
+            <div class="col-6" style="padding: 0px;">
+                <button type="button" class="btn btn-success btn-xs btn-block">Postez une demande</button>
+            </div>
+
+          </div><br>
 
       </div>
 
-      <div class="col-8">
+      <div class="col-7">
         <!-- Exaple 1 -->
         <div class="card example-1 scrollbar-ripe-malinka">
           <div class="card-body" id="element">
@@ -227,7 +248,9 @@
 .example-1 {
   position: relative;
   overflow-y: scroll;
-  height: 287px;
+
+  /* hauteur section scroll */
+  height: 580px;
 }
 
 /* Demo Code: */

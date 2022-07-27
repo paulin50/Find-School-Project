@@ -1,24 +1,10 @@
 # findschoola_project
 
-## Project setup
-```
+
+npm i @fortawesome/fontawesome-free
+npm i bootstrap@latest
+npm i popper.js
+npm i jquery
+
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

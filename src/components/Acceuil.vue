@@ -3,7 +3,6 @@
     <HomeSearchSection />
     <HomePubSection />
     <HomeFeaturedSection />
-    <HomeTestimonialSection />
     <Demande />
     <HomeCountSection />
     <Calltoaction/>
