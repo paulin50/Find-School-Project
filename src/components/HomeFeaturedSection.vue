@@ -69,4 +69,10 @@
 </script>
 
 <style scoped>
+
+
+
+.btn-primary{
+    background-color:#006663 !important;
+}
 </style>

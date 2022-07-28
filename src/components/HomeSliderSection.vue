@@ -59,6 +59,13 @@ export default {
 
 <style scoped>
 
+
+
+
+
+
+
+
 h3{
     color: white;
 }
@@ -86,6 +93,10 @@ ol #caro2 {
     background-color: #ffeb3b;
     opacity: .6;
 }
-
+.btn-warning{
+    background-color: #006663 !important;
+        border-color: none;
+}
+ 
 /* End banner css */
 </style>
