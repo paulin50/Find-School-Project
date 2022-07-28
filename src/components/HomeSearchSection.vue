@@ -8,7 +8,7 @@
         <div class="search">
           <i class="fa fa-search"></i>
           <input type="text" class="form-control" placeholder="Recherche par mots clés">
-          <button class="btn btn-primary">Rechercher</button>
+          <button class="btn btn-primary" id="recheche">Rechercher</button>
         </div>
       </div>
     </div>
@@ -25,6 +25,11 @@
 </script>
 
 <style scoped>
+
+
+
+
+
 /* search css */
 
 .height{
@@ -50,7 +55,7 @@ border: 2px solid #d6d4d4;
 .search input:focus{
 
 box-shadow: none;
-border: 2px solid blue;
+border: 2px solid #006663;
 
 
 }
@@ -70,8 +75,12 @@ top: 5px;
 right: 5px;
 height: 50px;
 width: 110px;
-background: blue;
+background: #006663;
 
+}
+#recheche{
+  background-color:#006663 !important;
+  border-color: none;
 }
 /* search css */
 </style>
