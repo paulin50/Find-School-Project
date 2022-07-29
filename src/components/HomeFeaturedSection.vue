@@ -74,5 +74,6 @@
 
 .btn-primary{
     background-color:#006663 !important;
+    border-color: #006663;
 }
 </style>

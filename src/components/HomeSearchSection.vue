@@ -6,8 +6,8 @@
     <div class="row height d-flex justify-content-center align-items-center">
       <div class="col-md-8">
         <div class="search">
-          <i class="fa fa-search"></i>
-          <input type="text" class="form-control" placeholder="Recherche par mots clés">
+          <i class="fa fa-search" ></i>
+          <input type="text" class="form-control" placeholder="Recherche par mots clés" id="holder" >
           <button class="btn btn-primary" id="recheche">Rechercher</button>
         </div>
       </div>
@@ -48,6 +48,7 @@ box-shadow: 0 0 40px rgba(51, 51, 51, .1);
 height: 60px;
 text-indent: 25px;
 border: 2px solid #d6d4d4;
+border-radius: 50px;
 
 }
 
@@ -57,14 +58,13 @@ border: 2px solid #d6d4d4;
 box-shadow: none;
 border: 2px solid #006663;
 
-
 }
 
 .search .fa-search{
-
 position: absolute;
 top: 20px;
-left: 16px;
+left: 10px;
+
 
 }
 
@@ -80,7 +80,13 @@ background: #006663;
 }
 #recheche{
   background-color:#006663 !important;
-  border-color: none;
+  border-radius: 50px;
+
+  border-color: #006663 !important;
+}
+
+#holder {
+  margin-left: px;
 }
 /* search css */
 </style>

@@ -73,7 +73,8 @@
 
 
             </div>
-            <a href="" class="btn btn-primary" style="background-color:#ff9100!important">
+            <a href="" class="btn btn-primary"
+                style="background-color:#ff9100!important ; border-color: #ff9100; display: flex; align-content: center;">
                 <router-link to="/inscription">Inscription</router-link><i class="fa fa-arrow-right ms-3"></i>
             </a>
         </div>
@@ -89,11 +90,6 @@ export default {
 </script>
 
 <style scoped>
-
-
-
-
-
 .navbar .navbar-brand img {
     max-height: 30px;
 }
@@ -113,7 +109,7 @@ export default {
     color: #FFFFFF;
     font-size: 15px;
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: capitalize;
     outline: none;
 }
 
@@ -122,14 +118,16 @@ export default {
 .navbar .navbar-nav .nav-link.active {
     color: var(--primary);
 }
+
 a {
     color: var(--bs-link-color);
     text-decoration: none;
 }
+
 .dropdown-item:hover:hover {
-    background-color:whitesmoke;
+    background-color: whitesmoke;
 }
- 
+
 
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link {
@@ -156,7 +154,7 @@ a {
         opacity: 0;
         visibility: hidden;
         transition: .5s;
-        background-color:#ffffffa8;
+        background-color: #ffffffa8;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
@@ -167,29 +165,30 @@ a {
     }
 }
 
-#app > div > nav > div > div > ul > li:nth-child(2) > div > a > a {
-     color: black !important;
-}
-#app > div > nav > div > div > ul > li:nth-child(3) > div > a > a {
-     color: black !important;
+#app>div>nav>div>div>ul>li:nth-child(2)>div>a>a {
+    color: black !important;
 }
 
+#app>div>nav>div>div>ul>li:nth-child(3)>div>a>a {
+    color: black !important;
+}
 
 
-#app > div > nav > div > div > ul > li:nth-child(2) > div{
-background-color: #ffffffa8;
+
+#app>div>nav>div>div>ul>li:nth-child(2)>div {
+    background-color: #ffffffa8;
 
 }
 
-#app > div > nav > div > div > ul > li:nth-child(3) > div{
-background-color: #ffffffa8;
+#app>div>nav>div>div>ul>li:nth-child(3)>div {
+    background-color: #ffffffa8;
 
 }
-#logo_find{
+
+#logo_find {
     max-width: 200px;
     max-height: 500px;
-    margin:5px;
-    padding:5px;
+    margin: 5px;
+    padding: 5px;
 }
-
 </style>

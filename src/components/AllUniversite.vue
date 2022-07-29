@@ -145,7 +145,6 @@ export default {
         rang: 10,
         categorie: "Universités de marketing",
       }
-
     ]
 
   }),

@@ -95,6 +95,7 @@ ol #caro2 {
 }
 .btn-warning{
     background-color: #006663 !important;
+    border-color:#006663 !important;
         border-color: none;
 }
  

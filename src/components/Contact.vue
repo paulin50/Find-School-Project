@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-      <div style="
+    <div style="
         background: url(https://bootstrapious.com/i/snippets/sn-static-header/background.jpg);
       " class="jumbotron bg-cover text-white">
       <div class="container py-5 text-center">
@@ -12,8 +12,8 @@
             </a>
         </p-->
         <!--a href="#" role="button" class="btn btn-primary px-5">See All Features</a-->
-     </div>
-    
+      </div>
+
     </div>
 
     <div class="container px-4 py-5" id="hanging-icons">
@@ -58,7 +58,6 @@
             <h2>E-mail</h2>
             <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
               probably just keep going until we run out of words.</p>
-
           </div>
         </div>
       </div>
@@ -115,6 +114,7 @@
     <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">La société It Innovation</h1>
+
         <p>La société It Innovation a été fondée en 2018. Elle est spécialisée dans le développement et la
           commercialisation des solutions informatiques innovantes. Il s’agit principalement des solution Web, Mobile,
           Desktop API et autres dans plusieurs secteurs d’activités (Transport, Gestion, santé, Hôtels, Agriculture,
@@ -186,9 +186,7 @@ export default {
   user-select: none;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {}
-}
+
 
 .b-example-divider {
   height: 3rem;
