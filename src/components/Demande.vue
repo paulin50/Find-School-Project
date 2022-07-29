@@ -4,39 +4,39 @@
     <div class="row">
       <div class="col-5">
         <div>
-            <br>
-            <div class="projcard-title">Répondez aux demandes des parents et proposez leur vos formations !</div>
-            <!-- <div class="projcard-subtitle">Mr AGOU Koffi Messanvi</div> -->
-            <div class="projcard-bar"></div>
-            <br>
+          <br>
+          <div class="projcard-title">Répondez aux demandes des parents et proposez leur vos formations !</div>
+          <!-- <div class="projcard-subtitle">Mr AGOU Koffi Messanvi</div> -->
+          <div class="projcard-bar"></div>
+          <br>
 
-            <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </div>
-
-              <div class="col-6" style="padding: 0px;">
-                <button type="button" class="btn btn-success btn-xs btn-block">Répondez aux demandes</button>
-              </div>
-            <br>
-
+          <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </div>
 
-          <div>
+          <div class="col-6" style="padding: 0px;">
+            <button type="button" class="btn btn-success btn-xs btn-block">Répondez aux demandes</button>
+          </div>
+          <br>
 
-            <div class="projcard-title">Vous recherchez une école pour vos enfants ?</div>
-            <!-- <div class="projcard-subtitle">Mr KARBOU Aristide</div> -->
-            <div class="projcard-bar"></div>
-            <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </div>
+        </div>
 
-            <div class="col-6" style="padding: 0px;">
-                <button type="button" class="btn btn-success btn-xs btn-block">Postez une demande</button>
-            </div>
+        <div>
 
-          </div><br>
+          <div class="projcard-title">Vous recherchez une école pour vos enfants ?</div>
+          <!-- <div class="projcard-subtitle">Mr KARBOU Aristide</div> -->
+          <div class="projcard-bar"></div>
+          <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+
+          <div class="col-6" style="padding: 0px;">
+            <button type="button" class="btn btn-success btn-xs btn-block">Postez une demande</button>
+          </div>
+
+        </div><br>
 
       </div>
 
@@ -48,7 +48,8 @@
               <div class="projcard-innerbox">
                 <!--img class="projcard-img" src="https://picsum.photos/800/600?image=1041" /-->
                 <div class="projcard-textbox">
-                  <div class="projcard-title">Recherche d'une université privée formant dans la finance</div>
+                  <div class="projcard-title" id="procar-title">Recherche d'une université privée formant dans la
+                    finance</div>
                   <div class="projcard-subtitle">Mr AGOU Koffi Messanvi</div>
                   <div class="projcard-bar"></div>
                   <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -67,7 +68,8 @@
               <div class="projcard-innerbox">
                 <!--img class="projcard-img" src="https://picsum.photos/800/600?image=1080" /-->
                 <div class="projcard-textbox">
-                  <div class="projcard-title">Je recherche un jardin d'enfant dans la zone de Totsi Glenkome</div>
+                  <div class="projcard-title" id="procar-title">Je recherche un jardin d'enfant dans la zone de Totsi
+                    Glenkome</div>
                   <div class="projcard-subtitle">Mr KARBOU Aristide</div>
                   <div class="projcard-bar"></div>
                   <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -86,7 +88,8 @@
               <div class="projcard-innerbox">
                 <!--img class="projcard-img" src="https://picsum.photos/800/600?image=1039" /-->
                 <div class="projcard-textbox">
-                  <div class="projcard-title">Je suis parent recherchant un lycée d'enseignement technique </div>
+                  <div class="projcard-title" id="procar-title">Je suis parent recherchant un lycée d'enseignement
+                    technique </div>
                   <div class="projcard-subtitle">Mr BEDE Israel</div>
                   <div class="projcard-bar"></div>
                   <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -105,7 +108,8 @@
               <div class="projcard-innerbox">
                 <!--img class="projcard-img" src="https://picsum.photos/800/600?image=943" /-->
                 <div class="projcard-textbox">
-                  <div class="projcard-title">Nouvelle bacheliére je recherche une école formant en gestion des projets
+                  <div class="projcard-title" id="procar-title">Nouvelle bacheliére je recherche une école formant en
+                    gestion des projets
                     TIC</div>
                   <div class="projcard-subtitle">Mlle Afi ABLAVI</div>
                   <div class="projcard-bar"></div>
@@ -131,10 +135,58 @@
   </div>
 </template>
 <style scoped>
+
+
+
+
+
+
+
+
+
+
 #element {
   display: flex !important;
   flex-wrap: wrap !important;
   justify-content: center !important;
+}
+/* media@@@@@@ */
+@media (max-width: 992px) {
+  .projcard[data-v-08eb447a] {
+      position: relative;
+      width: 90%;
+      height: 100%;
+      margin-bottom: 40px;
+      border-radius: 10px;
+      background-color: #fff;
+      border: 2px solid #ddd;
+      font-size: 14px;
+      overflow: hidden;
+      cursor: pointer;
+      box-shadow: 0 4px 21px -12px rgb(0 0 0 / 66%);
+      transition: box-shadow 0.2s ease, transform 0.2s ease;
+      margin-left: 0px;
+    }
+        .btn:not(:disabled):not(.disabled) {
+          cursor: pointer;
+          width: 140px;
+          height: 40px;
+          font-size: 12px;
+        }
+        .projcard-description[data-v-08eb447a] {
+       z-index: 10;
+        font-size:14px;
+        color: #424242;
+       height: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        }
+                .projcard-tagbox {
+                   
+                  font-size: 10px;
+                   
+                }
+   
 }
 
 .scrollbar-deep-purple::-webkit-scrollbar-track {

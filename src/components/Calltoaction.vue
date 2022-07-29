@@ -30,6 +30,8 @@ export default {
 </script>
 
 <style>
+
+
 h1{
     color: white;
 }
@@ -64,6 +66,17 @@ a {
     align-content: center;
     text-align: center;
     margin-top: 12%;
+}
+
+@media (max-width: 992px) {
+    #centre {
+             
+            top: -10px;
+            width: 100%;
+            position: relative;
+            display: block;
+            padding-top: 200px;
+        }
 }
 
 .first {
